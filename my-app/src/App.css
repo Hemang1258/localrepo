@@ -28,7 +28,7 @@
   color: #61dafb;
 }*/
 
-/*@keyframes App-logo-spin {
+/*@keyframes head1{
   from {
     transform: rotate(0deg);
   }
@@ -38,29 +38,76 @@
 }*/
 .head
 {
-  width: 100%;
+  display: flex;
+  justify-content:space-between;
+  align-items:self-start;
+  padding: 1rem 2rem;
+  background-color:forestgreen;
+  color:aqua;
+  }
+.Head1
+{
+  /*padding-top:initial;*/
+  padding-top: 20px;
+  justify-content: space-between;
+  padding-bottom:0px;
+  padding-left:38%;
+  font-size: 400%;
+  color:gold;
+  margin:0%;
+
 }
+.img1
+{
+ margin-top:1px;
+ margin-right:1px;
+ /*height:10px;
+ width:10px;*/
+ /*color:forestgreen;
+ height:30%;
+ width : 50%;*/
+
+ 
+
+}
+
+
 .navbar
 {
   display: flex;
   justify-content:space-between;
   align-items:self-start;
-  padding: 1rem 2rem;
+  /*padding: 1rem 2rem;*/
   background-color:burlywood;
   color:aqua;
-  font-size:150%; 
+  font-size:170%; 
 }
 .navbar-container {
  display: flex;
  justify-content:space-between;
-  width: 40%;
+  width: 45%;
   max-width: 1200px;
   margin:0%;
 }
 .navbar-containers
 {
    display: flex;
-   width: 10%;
    color:aqua;
-
+}
+.int
+{
+  height:40px;
+  width:220px;
+  padding-right:1px;  
+}
+.but
+{
+  height:45px;
+  font-size:50%;
+}
+.navbar-containers2
+{
+   display: flex;
+   width:5px;
+   color:aqua;
 }
