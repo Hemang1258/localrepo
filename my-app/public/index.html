@@ -30,8 +30,37 @@
   --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
     <title>React App</title>
+    <style>
+       body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        body {
+            animation: backgroundSlideshow infinite;
+            background-size: cover;
+            background-position: center;
+        }
+
+        @keyframes backgroundSlideshow {
+            0% {
+                background-image: url('Bg1.jpg');
+            }
+            33% {
+                background-image: url('BG2.jpg');
+            }
+            66% {
+                background-image: url('Bg3.jpg');
+            }
+            100% {
+                background-image: url('Bg4.jpg');
+            }
+        }
+    </style>
   </head>
-  <body bgcolor=silver>
+  <body bgcolor=silver style="background-image:url('Bg.jpg'); background-size: cover; background-repeat: no-repeat; margin-bottom:0%;">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--

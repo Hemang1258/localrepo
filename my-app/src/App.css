@@ -41,8 +41,8 @@
   display: flex;
   justify-content:space-between;
   align-items:self-start;
-  background-color:white;
-  color:aqua;
+  /*background-color:white;
+  color:aqua;*/
   }
 .Head1
 {
@@ -70,8 +70,8 @@
   justify-content:space-between;
   align-items:self-start;
   /*padding: 1rem 2rem;*/
-  background-color:black;
-  color:aqua;
+ /* background-color:black;
+  color:aqua;*/
   font-size:150%; 
 }
 .navbar-container {
