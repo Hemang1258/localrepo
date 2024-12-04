@@ -41,35 +41,27 @@
   display: flex;
   justify-content:space-between;
   align-items:self-start;
-  padding: 1rem 2rem;
-  background-color:forestgreen;
+  background-color:white;
   color:aqua;
   }
 .Head1
 {
   /*padding-top:initial;*/
-  padding-top: 20px;
+  margin-top:3%;
   justify-content: space-between;
-  padding-bottom:0px;
-  padding-left:38%;
-  font-size: 400%;
+  /*padding-bottom:0px;
+  padding-left:30%;*/
+  font-size: 350%;
   color:gold;
-  margin:0%;
+  margin-right:34%;
+  font-family:cursive;
+  font-style:normal;
+  font-display:inherit;
+  font-variant: small-caps;
 
 }
-.img1
-{
- margin-top:1px;
- margin-right:1px;
- /*height:10px;
- width:10px;*/
- /*color:forestgreen;
- height:30%;
- width : 50%;*/
 
  
-
-}
 
 
 .navbar
@@ -78,9 +70,9 @@
   justify-content:space-between;
   align-items:self-start;
   /*padding: 1rem 2rem;*/
-  background-color:burlywood;
+  background-color:black;
   color:aqua;
-  font-size:170%; 
+  font-size:150%; 
 }
 .navbar-container {
  display: flex;
@@ -89,25 +81,34 @@
   max-width: 1200px;
   margin:0%;
 }
-.navbar-containers
+/*.navbar-containers
 {
    display: flex;
    color:aqua;
-}
+}*/
 .int
 {
-  height:40px;
-  width:220px;
-  padding-right:1px;  
+            width: 70%;
+            padding: 5px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;  
 }
 .but
 {
-  height:45px;
-  font-size:50%;
+            margin-left:5px;
+            font-size: 16px;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            height:30px;
 }
 .navbar-containers2
 {
-   display: flex;
-   width:5px;
-   color:aqua;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
